@@ -20,10 +20,12 @@ int main (int argc, char *argv[])
    d.quack();
    d.swim();
    d.display();
+   d.fly();
 
    r.quack();
    r.swim();
    r.display();
+   r.fly();
 
    return 0;
 }

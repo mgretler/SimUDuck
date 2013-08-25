@@ -14,6 +14,7 @@ public:
 	virtual ~Duck();
 	void quack();
 	void swim();
+	void fly();
 
     virtual void display();
 protected:

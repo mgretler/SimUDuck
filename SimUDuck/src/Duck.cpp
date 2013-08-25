@@ -26,6 +26,10 @@ void Duck::swim() {
 	cout << "Duck is swimming" << endl;
 }
 
+void Duck::fly() {
+	cout << "Duck is flying" << endl;
+}
+
 void Duck::display() {
 	cout << "This is a Duck" << endl;
 }
