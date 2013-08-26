@@ -15,6 +15,7 @@ public:
 	RubberDuck();
 	virtual ~RubberDuck();
 	void quack();
+	void fly();
 	void display();
 };
 

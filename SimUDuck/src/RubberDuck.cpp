@@ -21,6 +21,10 @@ void RubberDuck::quack() {
 	cout << "Rubberduck is squeaking" << endl;
 }
 
+void RubberDuck::fly() {
+	cout << "Duck is not flying" << endl;
+}
+
 void RubberDuck::display() {
 	cout << "This is a RubberDuck" << endl;
 }
