@@ -9,15 +9,15 @@
 #include <iostream>
 using namespace std;
 
-RedheadDuck::RedheadDuck() {
+CRedheadDuck::CRedheadDuck() {
 	cout << "a RedheadDuck is constructed" << endl;
 }
 
-RedheadDuck::~RedheadDuck() {
+CRedheadDuck::~CRedheadDuck() {
 	cout << "a RedheadDuck is destroyed" << endl;
 }
 
-void RedheadDuck::display() {
+void CRedheadDuck::display() {
 	cout << "This is a RedheadDuck" << endl;
 }
 

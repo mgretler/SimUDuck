@@ -8,10 +8,10 @@
 #ifndef DUCK_H_
 #define DUCK_H_
 
-class Duck {
+class CDuck {
 public:
-	Duck();
-	virtual ~Duck();
+	CDuck();
+	virtual ~CDuck();
 	void quack();
 	void swim();
 	void fly();

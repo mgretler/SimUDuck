@@ -9,15 +9,15 @@
 #include <iostream>
 using namespace std;
 
-MallardDuck::MallardDuck() {
+CMallardDuck::CMallardDuck() {
 	cout << "a MallardDuck is constructed" << endl;
 }
 
-MallardDuck::~MallardDuck() {
+CMallardDuck::~CMallardDuck() {
 	cout << "a MallardDuck is destroyed" << endl;
 }
 
-void MallardDuck::display() {
+void CMallardDuck::display() {
 	cout << "This is a MallardDuck" << endl;
 }
 

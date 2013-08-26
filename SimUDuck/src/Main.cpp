@@ -17,16 +17,16 @@ int main (int argc, char *argv[])
 {
    cout << "This is may first Duck App" << endl; // prints !!!Hello World!!!
 
-   MallardDuck d;
+   CMallardDuck d;
    d.quack(); d.swim(); d.display(); d.fly();
 
-   RedheadDuck r;
+   CRedheadDuck r;
    r.quack(); r.swim(); r.display(); r.fly();
 
-   RubberDuck rd;
+   CRubberDuck rd;
    rd.quack(); rd.swim(); rd.display(); rd.fly();
 
-   DecoyDuck dd;
+   CDecoyDuck dd;
    dd.quack(); dd.swim(); dd.display(); dd.fly();
 
    return 0;

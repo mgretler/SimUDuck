@@ -10,26 +10,26 @@
 
 using namespace std;
 
-Duck::Duck() {
+CDuck::CDuck() {
 	cout << "a Duck is constructed" << endl;
 }
 
-Duck::~Duck() {
+CDuck::~CDuck() {
 	cout << "a Duck is destroyed" << endl;
 }
 
-void Duck::quack() {
+void CDuck::quack() {
 	cout << "Duck is quacking" << endl;
 }
 
-void Duck::swim() {
+void CDuck::swim() {
 	cout << "Duck is swimming" << endl;
 }
 
-void Duck::fly() {
+void CDuck::fly() {
 	cout << "Duck is flying" << endl;
 }
 
-void Duck::display() {
+void CDuck::display() {
 	cout << "This is a Duck" << endl;
 }

@@ -9,22 +9,22 @@
 #include <iostream>
 using namespace std;
 
-RubberDuck::RubberDuck() {
+CRubberDuck::CRubberDuck() {
 	cout << "a RubberDuck is constructed" << endl;
 }
 
-RubberDuck::~RubberDuck() {
+CRubberDuck::~CRubberDuck() {
 	cout << "a RubberDuck is destroyed" << endl;
 }
 
-void RubberDuck::quack() {
+void CRubberDuck::quack() {
 	cout << "Rubberduck is squeaking" << endl;
 }
 
-void RubberDuck::fly() {
+void CRubberDuck::fly() {
 	cout << "Duck is not flying" << endl;
 }
 
-void RubberDuck::display() {
+void CRubberDuck::display() {
 	cout << "This is a RubberDuck" << endl;
 }

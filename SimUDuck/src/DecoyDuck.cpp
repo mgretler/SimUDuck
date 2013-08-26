@@ -9,22 +9,22 @@
 #include <iostream>
 using namespace std;
 
-DecoyDuck::DecoyDuck() {
+CDecoyDuck::CDecoyDuck() {
 	cout << "a DecoyDuck is constructed" << endl;
 }
 
-DecoyDuck::~DecoyDuck() {
+CDecoyDuck::~CDecoyDuck() {
 	cout << "a DecoyDuck is destroyed" << endl;
 }
-void DecoyDuck::quack() {
+void CDecoyDuck::quack() {
 	cout << "DecoyDuck is silent" << endl;
 }
 
-void DecoyDuck::fly() {
+void CDecoyDuck::fly() {
 	cout << "DecoyDuck is not flying" << endl;
 }
 
-void DecoyDuck::display() {
+void CDecoyDuck::display() {
 	cout << "This is a DecoyDuck" << endl;
 }
 

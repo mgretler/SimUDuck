@@ -10,10 +10,10 @@
 
 #include "Duck.h"
 
-class MallardDuck : public Duck {
+class CMallardDuck : public CDuck {
 public:
-	MallardDuck();
-	virtual ~MallardDuck();
+	CMallardDuck();
+	virtual ~CMallardDuck();
 
 	void display();
 };
