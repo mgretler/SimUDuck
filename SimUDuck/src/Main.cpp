@@ -6,6 +6,7 @@
  */
 #include "MallardDuck.h"
 #include "RedheadDuck.h"
+#include "RubberDuck.h"
 
 #include <iostream>
 
@@ -15,17 +16,23 @@ int main (int argc, char *argv[])
 {
    cout << "This is may first Duck App" << endl; // prints !!!Hello World!!!
    MallardDuck d;
-   RedheadDuck r;
 
    d.quack();
    d.swim();
    d.display();
    d.fly();
 
+   RedheadDuck r;
    r.quack();
    r.swim();
    r.display();
    r.fly();
+
+   RubberDuck rd;
+   rd.quack();
+   rd.swim();
+   rd.display();
+   rd.fly();
 
    return 0;
 }
