@@ -13,7 +13,7 @@ public:
 	CFlyBehaviour();
 	virtual ~CFlyBehaviour();
 
-	void fly();
+	virtual void fly();
 };
 
 #endif /* CFLYBEHAVIOUR_H_ */

@@ -11,6 +11,8 @@
 using namespace std;
 
 CDuck::CDuck() {
+	m_pFlyBeh = NULL;
+	m_pQuackBeh = NULL;
 	cout << "a Duck is constructed" << endl;
 }
 
@@ -19,7 +21,8 @@ CDuck::~CDuck() {
 }
 
 void CDuck::quack() {
-	cout << "Duck is quacking" << endl;
+//	cout << "Duck is quacking" << endl;
+	m_pQuackBeh->quack();
 }
 
 void CDuck::swim() {
@@ -27,7 +30,8 @@ void CDuck::swim() {
 }
 
 void CDuck::fly() {
-	cout << "Duck is flying" << endl;
+//	cout << "Duck is flying" << endl;
+	m_pFlyBeh->fly();
 }
 
 void CDuck::display() {

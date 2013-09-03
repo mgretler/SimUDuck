@@ -14,8 +14,6 @@ class CRubberDuck: public CDuck {
 public:
 	CRubberDuck();
 	virtual ~CRubberDuck();
-	void quack();
-	void fly();
 	void display();
 };
 

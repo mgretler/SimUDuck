@@ -6,22 +6,21 @@
  */
 
 #include "DecoyDuck.h"
+#include "CFlyNoWay.h"
+#include "CMuteQuack.h"
 #include <iostream>
 using namespace std;
 
 CDecoyDuck::CDecoyDuck() {
+	m_pFlyBeh = new CFlyNoWay;
+	m_pQuackBeh = new CMuteQuack;
 	cout << "a DecoyDuck is constructed" << endl;
 }
 
 CDecoyDuck::~CDecoyDuck() {
+	delete m_pFlyBeh;
+	delete m_pQuackBeh;
 	cout << "a DecoyDuck is destroyed" << endl;
-}
-void CDecoyDuck::quack() {
-	cout << "DecoyDuck is silent" << endl;
-}
-
-void CDecoyDuck::fly() {
-	cout << "DecoyDuck is not flying" << endl;
 }
 
 void CDecoyDuck::display() {

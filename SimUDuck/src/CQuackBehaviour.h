@@ -13,7 +13,7 @@ public:
 	CQuackBehaviour();
 	virtual ~CQuackBehaviour();
 
-	void quack();
+	virtual void quack();
 };
 
 #endif /* CQUACKBEHAVIOUR_H_ */

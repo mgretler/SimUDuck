@@ -15,9 +15,7 @@ public:
 	CDecoyDuck();
 	virtual ~CDecoyDuck();
 
-	void quack();
 	void display();
-	void fly();
 };
 
 #endif /* DECOYDUCK_H_ */

@@ -7,6 +7,8 @@
 
 #ifndef DUCK_H_
 #define DUCK_H_
+#include "CFlyBehaviour.h"
+#include "CQuackBehaviour.h"
 
 class CDuck {
 public:
@@ -15,8 +17,9 @@ public:
 	void quack();
 	void swim();
 	void fly();
-
-    virtual void display();
+	void display();
+	CFlyBehaviour *m_pFlyBeh;
+	CQuackBehaviour *m_pQuackBeh;
 protected:
 private:
 };
