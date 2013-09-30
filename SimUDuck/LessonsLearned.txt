@@ -1,0 +1,18 @@
+1. Mein erster Kontakt mit C++. Aha man kann in abgeleiteten Klassen eine Methode
+   überschreiben und andere bekommt man "geschenkt"
+2. So einfach geht das. Eine Methode an der richtigen Stelle hinzugefügt und alle
+   Enten können fliegen.
+3. Eine neue Ente ist schnell gemacht. Leider kann sie nun auch fliegen. Aha, das
+   war nicht im Sinne des Erfinders, also neue Grenze erreicht.
+4. Wir haben gelernt, dass man Methoden überschreiben kann. Also das mit dem Fliegen
+   überschreiben wir jetzt. Klappt ganz gut.
+5. Oha. Jetzt muss ein Umdenken stattfinden. Es wird nicht mehr nach Enten programmiert,
+   sondern nach Eigenschaften der Enten. Und die vielen Files und Klassen die wir hier
+   erstellt haben. Ich verliere fast den Überblick nach meinem Refactoring.
+6. Ohne Klassendiagramm verliert man den Überblick. Also dieses sollte man unbedingt
+   zu Beginn einer Aufgabenstellung hinzeichnen. Dann geht es auch viel schneller beim
+   programmieren. Das mit dem Pointer war noch etwas tricky.
+
+Fazit:
+Die Denkweise der Objektorientierung und ein erstes Pattern kennengelernt. Klassendiagramm
+aufzeichnen ist dringend empfohlen. Delete in Destruktoren nicht vergessen.
